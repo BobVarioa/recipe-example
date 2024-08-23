@@ -1,0 +1,23 @@
+.modal {
+	padding: 2rem;
+	border: 0;
+	border-radius: 0.25em;
+	border-radius: 1em;
+	box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5em 0.25em;
+	border: 1px solid #ccc;
+	margin: auto;
+	background-color: var(--color-1);
+}
+
+.modal-close-btn {
+	position: absolute;
+	top: 0.25em;
+	right: 0.25em;
+	border-radius: 10em;
+}
+
+.modal-close-btn:hover {
+	cursor: pointer;
+	background-color: var(--color-3-highlight);
+	transition: background-color 0.2s ease-in-out;
+}

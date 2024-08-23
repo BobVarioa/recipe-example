@@ -1,0 +1,5 @@
+.recipe-editor > .editor {
+	background: var(--color-1);
+	border-radius: 0.5em;
+	margin: 1em 0px;
+}

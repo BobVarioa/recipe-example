@@ -1,0 +1,28 @@
+- a recipe site where the cost of each recipe is calculated automatically
+	- submit recipe 
+		- text editing 
+		- markdown sanitation
+		- ingredient cost 
+	- view other people's recipes 
+		- render markdown and sanitize it again on the client
+		- load client prices
+	- set ingredient prices
+		- hits an endpoint on the backend for data aggregation
+			- pgeocode to turn zip into location
+		- suggest prices based on location and other users
+			- save this information on the client, refetch after a week
+		- allow user to put in a override price
+		- https://pypi.org/project/CurrencyConverter/
+	- user login
+		- salt + hash
+	- user creation 
+		- django auth?
+		- zipcode
+		- suggested recipe tags
+	- 
+	- strech goal: docker
+	- strech goal: oauth
+	- strech goal: while loading / rendering the recipes a stirring pot animation css
+- ssr on frontend
+- sqlite backend 
+- 

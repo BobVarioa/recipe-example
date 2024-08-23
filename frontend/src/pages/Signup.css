@@ -1,0 +1,10 @@
+.signup {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signup > input,
+.signup > button {
+	margin: 0.5em;
+}

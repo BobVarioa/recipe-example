@@ -1,0 +1,7 @@
+django
+markdown_it
+nh3
+mdformat
+pgeocode
+numpy
+cachetools

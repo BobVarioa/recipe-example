@@ -1,0 +1,21 @@
+.editable-ingredient-list > .ingredient {
+	margin: 0.5em 0px;
+}
+
+.editable-ingredient-list > .ingredient > * {
+	margin: 0px 0.25em;
+}
+
+.editable-ingredient-list > .ingredient > :first-child {
+	margin-right: 0.25em;
+	margin-left: 0px;
+}
+
+.editable-ingredient-list > .ingredient > :last-child {
+	margin-left: 0.25em;
+	margin-right: 0px;
+}
+
+.add-ingredient {
+	display: inline-block;
+}

@@ -1,0 +1,14 @@
+
+.tag-list > .tag {
+	margin: 0.25em;
+}
+
+.tag-list > .tag::before {
+	content: "#";
+}
+
+.tag-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
