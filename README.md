@@ -1,7 +1,7 @@
 # Re¢ipes
 
 ### About
-This is a toy recipe website example, it currently allows you to:
+This is a toy recipe website example written in Django and React.js, it currently allows you to:
 - write recipes in rich text (markdown)
 - view recipes written by others
 - search for recipes based on tags
